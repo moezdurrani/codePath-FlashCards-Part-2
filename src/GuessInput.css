@@ -1,0 +1,32 @@
+.guess-input {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 12px;
+  font-size: 16px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(85, 88, 237);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: rgb(101, 103, 236);
+  transform: translateY(-2px); 
+}
+
+button:active {
+  background-color: rgb(44, 47, 231);
+  transform: translateY(1px); 
+}
